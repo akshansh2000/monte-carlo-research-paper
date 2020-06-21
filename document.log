@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.6.21)  21 JUN 2020 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.6.21)  21 JUN 2020 14:51
 entering extended mode
 **./document.tex
 (document.tex
@@ -989,7 +989,7 @@ Package epstopdf Info: Source file: <fractal_tree_ss_1.eps>
 rted-to.pdf fractal_tree_ss_1.eps>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
-<fractal_tree_ss_1-eps-converted-to.pdf, id=77, 722.7pt x 1606.0pt>
+<fractal_tree_ss_1-eps-converted-to.pdf, id=78, 722.7pt x 1606.0pt>
 File: fractal_tree_ss_1-eps-converted-to.pdf Graphic file (type pdf)
 <use fractal_tree_ss_1-eps-converted-to.pdf>
 Package pdftex.def Info: fractal_tree_ss_1-eps-converted-to.pdf  used on input 
@@ -1035,7 +1035,7 @@ Package epstopdf Info: Source file: <fractal_tree_ss_2.eps>
 rted-to.pdf fractal_tree_ss_2.eps>
 (epstopdf)             \includegraphics on input line 136.
 Package epstopdf Info: Output file is already uptodate.
-<fractal_tree_ss_2-eps-converted-to.pdf, id=88, 722.7pt x 1606.0pt>
+<fractal_tree_ss_2-eps-converted-to.pdf, id=89, 722.7pt x 1606.0pt>
 File: fractal_tree_ss_2-eps-converted-to.pdf Graphic file (type pdf)
 <use fractal_tree_ss_2-eps-converted-to.pdf>
 Package pdftex.def Info: fractal_tree_ss_2-eps-converted-to.pdf  used on input 
@@ -1051,7 +1051,7 @@ Package epstopdf Info: Source file: <fractal_tree_ss_3.eps>
 rted-to.pdf fractal_tree_ss_3.eps>
 (epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
-<fractal_tree_ss_3-eps-converted-to.pdf, id=89, 722.7pt x 1606.0pt>
+<fractal_tree_ss_3-eps-converted-to.pdf, id=90, 722.7pt x 1606.0pt>
 File: fractal_tree_ss_3-eps-converted-to.pdf Graphic file (type pdf)
 <use fractal_tree_ss_3-eps-converted-to.pdf>
 Package pdftex.def Info: fractal_tree_ss_3-eps-converted-to.pdf  used on input 
@@ -1101,7 +1101,7 @@ Package epstopdf Info: Source file: <fractal_tree_ss_4.eps>
 rted-to.pdf fractal_tree_ss_4.eps>
 (epstopdf)             \includegraphics on input line 147.
 Package epstopdf Info: Output file is already uptodate.
-<fractal_tree_ss_4-eps-converted-to.pdf, id=98, 722.7pt x 1606.0pt>
+<fractal_tree_ss_4-eps-converted-to.pdf, id=99, 722.7pt x 1606.0pt>
 File: fractal_tree_ss_4-eps-converted-to.pdf Graphic file (type pdf)
 <use fractal_tree_ss_4-eps-converted-to.pdf>
 Package pdftex.def Info: fractal_tree_ss_4-eps-converted-to.pdf  used on input 
@@ -1117,7 +1117,7 @@ Package epstopdf Info: Source file: <fractal_tree_ss_5.eps>
 rted-to.pdf fractal_tree_ss_5.eps>
 (epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
-<fractal_tree_ss_5-eps-converted-to.pdf, id=99, 722.7pt x 1606.0pt>
+<fractal_tree_ss_5-eps-converted-to.pdf, id=100, 722.7pt x 1606.0pt>
 File: fractal_tree_ss_5-eps-converted-to.pdf Graphic file (type pdf)
 <use fractal_tree_ss_5-eps-converted-to.pdf>
 Package pdftex.def Info: fractal_tree_ss_5-eps-converted-to.pdf  used on input 
@@ -1176,7 +1176,7 @@ Package epstopdf Info: Source file: <pi.eps>
 eps>
 (epstopdf)             \includegraphics on input line 174.
 Package epstopdf Info: Output file is already uptodate.
-<pi-eps-converted-to.pdf, id=112, 538.01pt x 588.1975pt>
+<pi-eps-converted-to.pdf, id=113, 538.01pt x 588.1975pt>
 File: pi-eps-converted-to.pdf Graphic file (type pdf)
 <use pi-eps-converted-to.pdf>
 Package pdftex.def Info: pi-eps-converted-to.pdf  used on input line 174.
@@ -1224,7 +1224,7 @@ Package epstopdf Info: Source file: <pi_ss_1.eps>
 f pi_ss_1.eps>
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
-<pi_ss_1-eps-converted-to.pdf, id=121, 722.7pt x 1606.0pt>
+<pi_ss_1-eps-converted-to.pdf, id=122, 722.7pt x 1606.0pt>
 File: pi_ss_1-eps-converted-to.pdf Graphic file (type pdf)
 <use pi_ss_1-eps-converted-to.pdf>
 Package pdftex.def Info: pi_ss_1-eps-converted-to.pdf  used on input line 194.
@@ -1239,7 +1239,7 @@ Package epstopdf Info: Source file: <pi_ss_2.eps>
 f pi_ss_2.eps>
 (epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
-<pi_ss_2-eps-converted-to.pdf, id=122, 722.7pt x 1606.0pt>
+<pi_ss_2-eps-converted-to.pdf, id=123, 722.7pt x 1606.0pt>
 File: pi_ss_2-eps-converted-to.pdf Graphic file (type pdf)
 <use pi_ss_2-eps-converted-to.pdf>
 Package pdftex.def Info: pi_ss_2-eps-converted-to.pdf  used on input line 195.
@@ -1254,7 +1254,7 @@ Package epstopdf Info: Source file: <pi_ss_3.eps>
 f pi_ss_3.eps>
 (epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
-<pi_ss_3-eps-converted-to.pdf, id=123, 722.7pt x 1606.0pt>
+<pi_ss_3-eps-converted-to.pdf, id=124, 722.7pt x 1606.0pt>
 File: pi_ss_3-eps-converted-to.pdf Graphic file (type pdf)
 <use pi_ss_3-eps-converted-to.pdf>
 Package pdftex.def Info: pi_ss_3-eps-converted-to.pdf  used on input line 196.
@@ -1484,9 +1484,9 @@ ha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users
 Users/aksha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
 <C:/Users/aksha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on document.pdf (9 pages, 4184287 bytes).
+Output written on document.pdf (9 pages, 4184515 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
+ 206 PDF objects out of 1000 (max. 8388607)
  24 named destinations out of 1000 (max. 500000)
  110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
