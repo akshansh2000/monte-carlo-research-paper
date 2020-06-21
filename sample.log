@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.6.17)  21 JUN 2020 08:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.6.17)  21 JUN 2020 08:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -395,6 +395,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip52
 ) (./sample.aux
+
+LaTeX Warning: Label `latexcompanion' multiply defined.
+
 
 LaTeX Warning: Label `latexcompanion' multiply defined.
 
@@ -1075,8 +1078,8 @@ Overfull \hbox (4.16098pt too wide) has occurred while \output is active
 [6 <./fractal_tree_ss_4-eps-converted-to.pdf> <./fractal_tree_ss_5-eps-converte
 d-to.pdf>]
 Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 17
-2.
-Package marginnote Info: xpos seems to be 92.47144pt on input line 172.
+4.
+Package marginnote Info: xpos seems to be 92.47144pt on input line 174.
 Package epstopdf Info: Source file: <pi.eps>
 (epstopdf)                    date: 2020-06-21 07:34:04
 (epstopdf)                    size: 666291 bytes
@@ -1085,15 +1088,15 @@ Package epstopdf Info: Source file: <pi.eps>
 (epstopdf)                    size: 79031 bytes
 (epstopdf)             Command: <repstopdf --outfile=pi-eps-converted-to.pdf pi
 .eps>
-(epstopdf)             \includegraphics on input line 172.
+(epstopdf)             \includegraphics on input line 174.
 Package epstopdf Info: Output file is already uptodate.
 <pi-eps-converted-to.pdf, id=113, 538.01pt x 588.1975pt>
 File: pi-eps-converted-to.pdf Graphic file (type pdf)
 <use pi-eps-converted-to.pdf>
-Package pdftex.def Info: pi-eps-converted-to.pdf  used on input line 172.
+Package pdftex.def Info: pi-eps-converted-to.pdf  used on input line 174.
 (pdftex.def)             Requested size: 99.57954pt x 99.57939pt.
 
-Overfull \hbox (1.41905pt too wide) in paragraph at lines 172--172
+Overfull \hbox (1.41905pt too wide) in paragraph at lines 174--174
 []  
  []
 
@@ -1113,11 +1116,11 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <repstopdf --outfile=logo-eps-converted-to.pdf 
 logo.eps>
-(epstopdf)             \includegraphics on input line 188.
+(epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 188.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 190.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (132.19838pt too wide) has occurred while \output is active
@@ -1133,12 +1136,12 @@ Package epstopdf Info: Source file: <pi_ss_1.eps>
 (epstopdf)                    size: 282130 bytes
 (epstopdf)             Command: <repstopdf --outfile=pi_ss_1-eps-converted-to.p
 df pi_ss_1.eps>
-(epstopdf)             \includegraphics on input line 192.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
-<pi_ss_1-eps-converted-to.pdf, id=121, 722.7pt x 1606.0pt>
+<pi_ss_1-eps-converted-to.pdf, id=122, 722.7pt x 1606.0pt>
 File: pi_ss_1-eps-converted-to.pdf Graphic file (type pdf)
 <use pi_ss_1-eps-converted-to.pdf>
-Package pdftex.def Info: pi_ss_1-eps-converted-to.pdf  used on input line 192.
+Package pdftex.def Info: pi_ss_1-eps-converted-to.pdf  used on input line 194.
 (pdftex.def)             Requested size: 113.81102pt x 252.89732pt.
 Package epstopdf Info: Source file: <pi_ss_2.eps>
 (epstopdf)                    date: 2020-06-21 07:38:44
@@ -1148,12 +1151,12 @@ Package epstopdf Info: Source file: <pi_ss_2.eps>
 (epstopdf)                    size: 317498 bytes
 (epstopdf)             Command: <repstopdf --outfile=pi_ss_2-eps-converted-to.p
 df pi_ss_2.eps>
-(epstopdf)             \includegraphics on input line 193.
+(epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
-<pi_ss_2-eps-converted-to.pdf, id=122, 722.7pt x 1606.0pt>
+<pi_ss_2-eps-converted-to.pdf, id=123, 722.7pt x 1606.0pt>
 File: pi_ss_2-eps-converted-to.pdf Graphic file (type pdf)
 <use pi_ss_2-eps-converted-to.pdf>
-Package pdftex.def Info: pi_ss_2-eps-converted-to.pdf  used on input line 193.
+Package pdftex.def Info: pi_ss_2-eps-converted-to.pdf  used on input line 195.
 (pdftex.def)             Requested size: 113.81102pt x 252.89732pt.
 Package epstopdf Info: Source file: <pi_ss_3.eps>
 (epstopdf)                    date: 2020-06-21 07:38:49
@@ -1163,29 +1166,29 @@ Package epstopdf Info: Source file: <pi_ss_3.eps>
 (epstopdf)                    size: 388285 bytes
 (epstopdf)             Command: <repstopdf --outfile=pi_ss_3-eps-converted-to.p
 df pi_ss_3.eps>
-(epstopdf)             \includegraphics on input line 194.
+(epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
-<pi_ss_3-eps-converted-to.pdf, id=123, 722.7pt x 1606.0pt>
+<pi_ss_3-eps-converted-to.pdf, id=124, 722.7pt x 1606.0pt>
 File: pi_ss_3-eps-converted-to.pdf Graphic file (type pdf)
 <use pi_ss_3-eps-converted-to.pdf>
-Package pdftex.def Info: pi_ss_3-eps-converted-to.pdf  used on input line 194.
+Package pdftex.def Info: pi_ss_3-eps-converted-to.pdf  used on input line 196.
 (pdftex.def)             Requested size: 113.81102pt x 252.89732pt.
-Package marginnote Info: Margin note 8.1 is on absolute page 8 on input line 19
-9.
+Package marginnote Info: Margin note 8.1 is on absolute page 8 on input line 20
+1.
 
-Overfull \hbox (0.57744pt too wide) in paragraph at lines 199--199
+Overfull \hbox (0.57744pt too wide) in paragraph at lines 201--201
  []
  []
 
-Package marginnote Info: xpos seems to be 220.50888pt on input line 199.
+Package marginnote Info: xpos seems to be 220.50888pt on input line 201.
 
-Overfull \hbox (38.67523pt too wide) in paragraph at lines 216--218
+Overfull \hbox (38.67523pt too wide) in paragraph at lines 218--220
 [][]$\OT1/txtt/b/n/8 https : / / machinelearningmastery . com / monte-[]carlo-[
 ]sampling-[]for-[]probability/$[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--218
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
 
  []
 
@@ -1197,11 +1200,11 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <repstopdf --outfile=logo-eps-converted-to.pdf 
 logo.eps>
-(epstopdf)             \includegraphics on input line 218.
+(epstopdf)             \includegraphics on input line 220.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 218.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 220.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (4.16098pt too wide) has occurred while \output is active
@@ -1210,76 +1213,76 @@ Overfull \hbox (4.16098pt too wide) has occurred while \output is active
 
 [8 <./pi_ss_1-eps-converted-to.pdf> <./pi_ss_2-eps-converted-to.pdf> <./pi_ss_3
 -eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 220--222
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
 
  []
 
 
-Overfull \hbox (72.2752pt too wide) in paragraph at lines 224--226
+Overfull \hbox (72.2752pt too wide) in paragraph at lines 226--228
 [][]$\OT1/txtt/b/n/8 https : / / www . scratchapixel . com / lessons / mathemat
 ics-[]physics-[]for-[]computer-[]graphics /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--226
+Underfull \hbox (badness 10000) in paragraph at lines 226--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
+Underfull \hbox (badness 10000) in paragraph at lines 230--232
 [][]$\OT1/txtt/b/n/8 http : / / ib . berkeley . edu / labs / slatkin / eriq / c
 lasses / guest _ lect / mc _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
+Underfull \hbox (badness 10000) in paragraph at lines 230--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
 [][]$\OT1/txtt/b/n/8 https : / / www . cs . mcgill . ca / []rwest / wikispeedia
  / wpcd / wp / f / Fractal .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
 [][]$\OT1/txtt/b/n/8 http : / / www . fractal . org / Bewustzijns-[]Besturings-
 []Model /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--248
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
 [][]$\OT1/txtt/b/n/8 http : / / www . fractal . org / Bewustzijns-[]Besturings-
 []Model /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--248
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
 
 Overfull \hbox (130.11789pt too wide) has occurred while \output is active
 $[]$ 
@@ -1293,11 +1296,11 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <repstopdf --outfile=logo-eps-converted-to.pdf 
 logo.eps>
-(epstopdf)             \includegraphics on input line 255.
+(epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 255.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 257.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (132.19838pt too wide) has occurred while \output is active
@@ -1309,72 +1312,72 @@ ompanion}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.255 \end{document}
+l.257 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.latexcompanion}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.255 \end{document}
+l.257 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.latexcompanion}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.255 \end{document}
+l.257 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.latexcompanion}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.255 \end{document}
+l.257 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.latexcompanion}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.255 \end{document}
+l.257 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.latexcompanion}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.255 \end{document}
+l.257 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.latexcompanion}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.255 \end{document}
+l.257 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.latexcompanion}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.255 \end{document}
+l.257 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.latexcompanion}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.255 \end{document}
+l.257 \end{document}
                     ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
  (./sample.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 255.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
 Package rerunfilecheck Info: File `sample.out' has not changed.
 (rerunfilecheck)             Checksum: 8F5F0F3E96A59AC0586EE9A23A088C8E;144.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
  ) 
 Here is how much of TeX's memory you used:
  8523 strings out of 492167
  119189 string characters out of 6131558
- 216581 words of memory out of 5000000
+ 216582 words of memory out of 5000000
  12710 multiletter control sequences out of 15000+600000
  54623 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1390,10 +1393,10 @@ ts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/u
 tmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on sample.pdf (9 pages, 4161838 bytes).
+Output written on sample.pdf (9 pages, 4161958 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
+ 208 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
  24 named destinations out of 1000 (max. 500000)
  110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
