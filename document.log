@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.26)  26 JUL 2020 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.26)  26 JUL 2020 15:52
 entering extended mode
 **./document.tex
 (document.tex
@@ -815,7 +815,7 @@ Package epstopdf Info: Source file: <akshansh.eps>
 (epstopdf)                    date: 2020-07-26 15:04:03
 (epstopdf)                    size: 34048468 bytes
 (epstopdf)             Output file: <akshansh-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-26 15:20:57
+(epstopdf)                    date: 2020-07-26 15:45:34
 (epstopdf)                    size: 1771843 bytes
 (epstopdf)             Command: <epstopdf --outfile=akshansh-eps-converted-to.p
 df akshansh.eps>
@@ -902,6 +902,11 @@ Overfull \hbox (132.19838pt too wide) has occurred while \output is active
 
  <./akshansh-eps-converted-to.pdf> <./aryan-eps-converted-to.pdf> <./the-flaw-o
 f-averages.png> <./logo-eps-converted-to.pdf>]
+Overfull \hbox (9.51808pt too wide) in paragraph at lines 50--51
+\OT1/txr/m/n/10.95 that de-pend on re-peated ran-dom sam-pling to get an-a-lyt-
+i-cal results.$[]$
+ []
+
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 4.
 
@@ -941,8 +946,29 @@ Overfull \hbox (1.41905pt too wide) in paragraph at lines 63--63
  []
 
 Package marginnote Info: xpos seems to be 220.50888pt on input line 63.
-Package marginnote Info: Margin note 2.2 is on absolute page 2 on input line 74
+Package epstopdf Info: Source file: <logo.eps>
+(epstopdf)                    date: 2020-07-26 15:04:03
+(epstopdf)                    size: 120590 bytes
+(epstopdf)             Output file: <logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-26 15:04:03
+(epstopdf)                    size: 51603 bytes
+(epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
+ogo.eps>
+(epstopdf)             \includegraphics on input line 68.
+Package epstopdf Info: Output file is already uptodate.
+File: logo-eps-converted-to.pdf Graphic file (type pdf)
+<use logo-eps-converted-to.pdf>
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 68.
+(pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
+
+Overfull \hbox (4.16098pt too wide) has occurred while \output is active
+ | $[]$ 
+ []
+
+[2 <./fractal_1-eps-converted-to.pdf>]
+Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 74
 .
+Package marginnote Info: xpos seems to be 92.47144pt on input line 74.
 Package epstopdf Info: Source file: <fractal_2.eps>
 (epstopdf)                    date: 2020-07-26 15:04:03
 (epstopdf)                    size: 303528 bytes
@@ -953,7 +979,7 @@ Package epstopdf Info: Source file: <fractal_2.eps>
 pdf fractal_2.eps>
 (epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
-<fractal_2-eps-converted-to.pdf, id=53, 227.85126pt x 213.79875pt>
+<fractal_2-eps-converted-to.pdf, id=64, 227.85126pt x 213.79875pt>
 File: fractal_2-eps-converted-to.pdf Graphic file (type pdf)
 <use fractal_2-eps-converted-to.pdf>
 Package pdftex.def Info: fractal_2-eps-converted-to.pdf  used on input line 74.
@@ -961,37 +987,16 @@ Package pdftex.def Info: fractal_2-eps-converted-to.pdf  used on input line 74.
 (pdftex.def)             Requested size: 85.35826pt x 80.09602pt.
 
 Overfull \hbox (1.41905pt too wide) in paragraph at lines 74--74
- []
+[]  
  []
 
-Package marginnote Info: xpos seems to be 220.50888pt on input line 74.
 
 Overfull \hbox (6.15758pt too wide) in paragraph at lines 75--76
 \OT1/txr/m/n/10 volve around whole num-bers and clas-si-cal ge-ome-tries like s
 quares,
  []
 
-Package epstopdf Info: Source file: <logo.eps>
-(epstopdf)                    date: 2020-07-26 15:04:03
-(epstopdf)                    size: 120590 bytes
-(epstopdf)             Output file: <logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-26 15:04:03
-(epstopdf)                    size: 51603 bytes
-(epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
-ogo.eps>
-(epstopdf)             \includegraphics on input line 79.
-Package epstopdf Info: Output file is already uptodate.
-File: logo-eps-converted-to.pdf Graphic file (type pdf)
-<use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 79.
-(pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
-
-Overfull \hbox (4.16098pt too wide) has occurred while \output is active
- | $[]$ 
- []
-
-[2 <./fractal_1-eps-converted-to.pdf> <./fractal_2-eps-converted-to.pdf>]
-Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 84
+Package marginnote Info: Margin note 3.2 is on absolute page 3 on input line 84
 .
 Package marginnote Info: xpos seems to be 92.47144pt on input line 84.
 Package epstopdf Info: Source file: <fractal_tree.eps>
@@ -1004,7 +1009,7 @@ Package epstopdf Info: Source file: <fractal_tree.eps>
 to.pdf fractal_tree.eps>
 (epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
-<fractal_tree-eps-converted-to.pdf, id=69, 1743.51375pt x 1743.51375pt>
+<fractal_tree-eps-converted-to.pdf, id=66, 1743.51375pt x 1743.51375pt>
 File: fractal_tree-eps-converted-to.pdf Graphic file (type pdf)
 <use fractal_tree-eps-converted-to.pdf>
 Package pdftex.def Info: fractal_tree-eps-converted-to.pdf  used on input line 
@@ -1015,7 +1020,7 @@ Overfull \hbox (1.41905pt too wide) in paragraph at lines 84--84
 []  
  []
 
-Package marginnote Info: Margin note 3.2 is on absolute page 3 on input line 98
+Package marginnote Info: Margin note 3.3 is on absolute page 3 on input line 98
 .
 Package marginnote Info: xpos seems to be 92.47144pt on input line 98.
 Package epstopdf Info: Source file: <fractal_tree_ss_1.eps>
@@ -1028,7 +1033,7 @@ Package epstopdf Info: Source file: <fractal_tree_ss_1.eps>
 rted-to.pdf fractal_tree_ss_1.eps>
 (epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
-<fractal_tree_ss_1-eps-converted-to.pdf, id=71, 722.7pt x 1606.0pt>
+<fractal_tree_ss_1-eps-converted-to.pdf, id=68, 722.7pt x 1606.0pt>
 File: fractal_tree_ss_1-eps-converted-to.pdf Graphic file (type pdf)
 <use fractal_tree_ss_1-eps-converted-to.pdf>
 Package pdftex.def Info: fractal_tree_ss_1-eps-converted-to.pdf  used on input 
@@ -1039,8 +1044,6 @@ Overfull \hbox (1.41905pt too wide) in paragraph at lines 98--98
 []  
  []
 
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 113.
 
 Overfull \hbox (130.11789pt too wide) has occurred while \output is active
 $[]$ 
@@ -1054,20 +1057,47 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 127.
+(epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 127.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 104.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (132.19838pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[3 <./fractal_tree-eps-converted-to.pdf> <./fractal_tree_ss_1-eps-converted-to.
-pdf>]
+[3 <./fractal_2-eps-converted-to.pdf> <./fractal_tree-eps-converted-to.pdf> <./
+fractal_tree_ss_1-eps-converted-to.pdf>]
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 113.
+Package epstopdf Info: Source file: <logo.eps>
+(epstopdf)                    date: 2020-07-26 15:04:03
+(epstopdf)                    size: 120590 bytes
+(epstopdf)             Output file: <logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-26 15:04:03
+(epstopdf)                    size: 51603 bytes
+(epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
+ogo.eps>
+(epstopdf)             \includegraphics on input line 131.
+Package epstopdf Info: Output file is already uptodate.
+File: logo-eps-converted-to.pdf Graphic file (type pdf)
+<use logo-eps-converted-to.pdf>
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 131.
+(pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
+
+Overfull \hbox (4.16098pt too wide) has occurred while \output is active
+ | $[]$ 
+ []
+
+[4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (130.11789pt too wide) has occurred while \output is active
+$[]$ 
+ []
 
 Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    date: 2020-07-26 15:04:03
@@ -1084,11 +1114,11 @@ File: logo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 148.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
-Overfull \hbox (4.16098pt too wide) has occurred while \output is active
- | $[]$ 
+Overfull \hbox (132.19838pt too wide) has occurred while \output is active
+ $[]$ 
  []
 
-[4]
+[5]
 Package epstopdf Info: Source file: <fractal_tree_ss_2.eps>
 (epstopdf)                    date: 2020-07-26 15:04:03
 (epstopdf)                    size: 7095216 bytes
@@ -1099,7 +1129,7 @@ Package epstopdf Info: Source file: <fractal_tree_ss_2.eps>
 rted-to.pdf fractal_tree_ss_2.eps>
 (epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
-<fractal_tree_ss_2-eps-converted-to.pdf, id=95, 722.7pt x 1606.0pt>
+<fractal_tree_ss_2-eps-converted-to.pdf, id=99, 722.7pt x 1606.0pt>
 File: fractal_tree_ss_2-eps-converted-to.pdf Graphic file (type pdf)
 <use fractal_tree_ss_2-eps-converted-to.pdf>
 Package pdftex.def Info: fractal_tree_ss_2-eps-converted-to.pdf  used on input 
@@ -1115,7 +1145,7 @@ Package epstopdf Info: Source file: <fractal_tree_ss_3.eps>
 rted-to.pdf fractal_tree_ss_3.eps>
 (epstopdf)             \includegraphics on input line 152.
 Package epstopdf Info: Output file is already uptodate.
-<fractal_tree_ss_3-eps-converted-to.pdf, id=96, 722.7pt x 1606.0pt>
+<fractal_tree_ss_3-eps-converted-to.pdf, id=100, 722.7pt x 1606.0pt>
 File: fractal_tree_ss_3-eps-converted-to.pdf Graphic file (type pdf)
 <use fractal_tree_ss_3-eps-converted-to.pdf>
 Package pdftex.def Info: fractal_tree_ss_3-eps-converted-to.pdf  used on input 
@@ -1136,7 +1166,7 @@ Package epstopdf Info: Source file: <fractal_tree_ss_4.eps>
 rted-to.pdf fractal_tree_ss_4.eps>
 (epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
-<fractal_tree_ss_4-eps-converted-to.pdf, id=97, 722.7pt x 1606.0pt>
+<fractal_tree_ss_4-eps-converted-to.pdf, id=101, 722.7pt x 1606.0pt>
 File: fractal_tree_ss_4-eps-converted-to.pdf Graphic file (type pdf)
 <use fractal_tree_ss_4-eps-converted-to.pdf>
 Package pdftex.def Info: fractal_tree_ss_4-eps-converted-to.pdf  used on input 
@@ -1152,7 +1182,7 @@ Package epstopdf Info: Source file: <fractal_tree_ss_5.eps>
 rted-to.pdf fractal_tree_ss_5.eps>
 (epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
-<fractal_tree_ss_5-eps-converted-to.pdf, id=98, 722.7pt x 1606.0pt>
+<fractal_tree_ss_5-eps-converted-to.pdf, id=102, 722.7pt x 1606.0pt>
 File: fractal_tree_ss_5-eps-converted-to.pdf Graphic file (type pdf)
 <use fractal_tree_ss_5-eps-converted-to.pdf>
 Package pdftex.def Info: fractal_tree_ss_5-eps-converted-to.pdf  used on input 
@@ -1160,11 +1190,6 @@ line 164.
 (pdftex.def)             Requested size: 93.89418pt x 208.64029pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (130.11789pt too wide) has occurred while \output is active
-$[]$ 
- []
 
 Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    date: 2020-07-26 15:04:03
@@ -1181,23 +1206,29 @@ File: logo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 171.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
-Overfull \hbox (132.19838pt too wide) has occurred while \output is active
- $[]$ 
+Overfull \hbox (4.16098pt too wide) has occurred while \output is active
+ | $[]$ 
  []
 
-[5 <./fractal_tree_ss_2-eps-converted-to.pdf> <./fractal_tree_ss_3-eps-converte
+[6 <./fractal_tree_ss_2-eps-converted-to.pdf> <./fractal_tree_ss_3-eps-converte
 d-to.pdf> <./fractal_tree_ss_4-eps-converted-to.pdf> <./fractal_tree_ss_5-eps-c
 onverted-to.pdf>]
-Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 17
+Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 17
 2.
+Package marginnote Info: xpos seems to be 263.2939pt on input line 172.
 
 Overfull \hbox (0.57744pt too wide) in paragraph at lines 172--172
- []
+[]  
  []
 
-Package marginnote Info: xpos seems to be 270.62889pt on input line 172.
-Package marginnote Info: Margin note 6.2 is on absolute page 6 on input line 18
+
+Overfull \hbox (61.52293pt too wide) detected at line 178
+[]  \OT1/txr/m/n/10.95 =  []  =  []  =  []  =  \OML/txmi/m/it/10.95 k
+ []
+
+Package marginnote Info: Margin note 7.2 is on absolute page 7 on input line 18
 6.
+Package marginnote Info: xpos seems to be 92.47144pt on input line 186.
 Package epstopdf Info: Source file: <pi.eps>
 (epstopdf)                    date: 2020-07-26 15:04:03
 (epstopdf)                    size: 676159 bytes
@@ -1208,17 +1239,49 @@ Package epstopdf Info: Source file: <pi.eps>
 eps>
 (epstopdf)             \includegraphics on input line 186.
 Package epstopdf Info: Output file is already uptodate.
-<pi-eps-converted-to.pdf, id=113, 538.01pt x 588.1975pt>
+<pi-eps-converted-to.pdf, id=117, 538.01pt x 588.1975pt>
 File: pi-eps-converted-to.pdf Graphic file (type pdf)
 <use pi-eps-converted-to.pdf>
 Package pdftex.def Info: pi-eps-converted-to.pdf  used on input line 186.
 (pdftex.def)             Requested size: 99.57954pt x 99.57939pt.
 
 Overfull \hbox (1.41905pt too wide) in paragraph at lines 186--186
- []
+[]  
  []
 
-Package marginnote Info: xpos seems to be 220.50888pt on input line 186.
+
+Overfull \hbox (0.23763pt too wide) in paragraph at lines 189--190
+[]\OT1/txr/m/n/10.95 The points are gen-er-ated in the \OT1/txr/bx/n/10.95 Dart
+ \OT1/txr/m/n/10.95 lan-guage us-ing the \OT1/txr/m/it/10.95 dart:math
+ []
+
+
+Overfull \hbox (130.11789pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+Package epstopdf Info: Source file: <logo.eps>
+(epstopdf)                    date: 2020-07-26 15:04:03
+(epstopdf)                    size: 120590 bytes
+(epstopdf)             Output file: <logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-26 15:04:03
+(epstopdf)                    size: 51603 bytes
+(epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
+ogo.eps>
+(epstopdf)             \includegraphics on input line 204.
+Package epstopdf Info: Output file is already uptodate.
+File: logo-eps-converted-to.pdf Graphic file (type pdf)
+<use logo-eps-converted-to.pdf>
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 204.
+(pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
+
+Overfull \hbox (132.19838pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[7 <./pi-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    date: 2020-07-26 15:04:03
 (epstopdf)                    size: 120590 bytes
@@ -1238,7 +1301,7 @@ Overfull \hbox (4.16098pt too wide) has occurred while \output is active
  | $[]$ 
  []
 
-[6 <./pi-eps-converted-to.pdf>]
+[8]
 Package epstopdf Info: Source file: <pi_ss_1.eps>
 (epstopdf)                    date: 2020-07-26 15:04:03
 (epstopdf)                    size: 7095206 bytes
@@ -1249,7 +1312,7 @@ Package epstopdf Info: Source file: <pi_ss_1.eps>
 f pi_ss_1.eps>
 (epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
-<pi_ss_1-eps-converted-to.pdf, id=122, 722.7pt x 1606.0pt>
+<pi_ss_1-eps-converted-to.pdf, id=131, 722.7pt x 1606.0pt>
 File: pi_ss_1-eps-converted-to.pdf Graphic file (type pdf)
 <use pi_ss_1-eps-converted-to.pdf>
 Package pdftex.def Info: pi_ss_1-eps-converted-to.pdf  used on input line 216.
@@ -1264,7 +1327,7 @@ Package epstopdf Info: Source file: <pi_ss_2.eps>
 f pi_ss_2.eps>
 (epstopdf)             \includegraphics on input line 217.
 Package epstopdf Info: Output file is already uptodate.
-<pi_ss_2-eps-converted-to.pdf, id=123, 722.7pt x 1606.0pt>
+<pi_ss_2-eps-converted-to.pdf, id=132, 722.7pt x 1606.0pt>
 File: pi_ss_2-eps-converted-to.pdf Graphic file (type pdf)
 <use pi_ss_2-eps-converted-to.pdf>
 Package pdftex.def Info: pi_ss_2-eps-converted-to.pdf  used on input line 217.
@@ -1279,7 +1342,7 @@ Package epstopdf Info: Source file: <pi_ss_3.eps>
 f pi_ss_3.eps>
 (epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
-<pi_ss_3-eps-converted-to.pdf, id=124, 722.7pt x 1606.0pt>
+<pi_ss_3-eps-converted-to.pdf, id=133, 722.7pt x 1606.0pt>
 File: pi_ss_3-eps-converted-to.pdf Graphic file (type pdf)
 <use pi_ss_3-eps-converted-to.pdf>
 Package pdftex.def Info: pi_ss_3-eps-converted-to.pdf  used on input line 218.
@@ -1289,7 +1352,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 22
+Package marginnote Info: Margin note 9.1 is on absolute page 9 on input line 22
 6.
 Package marginnote Info: xpos seems to be 92.47144pt on input line 226.
 
@@ -1338,14 +1401,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--240
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--249
- 
- []
-
-
-Underfull \vbox (badness 1917) has occurred while \output is active []
-
-
 Overfull \hbox (130.11789pt too wide) has occurred while \output is active
 $[]$ 
  []
@@ -1358,19 +1413,24 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 249.
+(epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 249.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 240.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (132.19838pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[7 <./pi_ss_1-eps-converted-to.pdf> <./pi_ss_2-eps-converted-to.pdf> <./pi_ss_3
+[9 <./pi_ss_1-eps-converted-to.pdf> <./pi_ss_2-eps-converted-to.pdf> <./pi_ss_3
 -eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
+ 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 251--253
  
  []
@@ -1419,8 +1479,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--279
  
  []
 
+Package epstopdf Info: Source file: <logo.eps>
+(epstopdf)                    date: 2020-07-26 15:04:03
+(epstopdf)                    size: 120590 bytes
+(epstopdf)             Output file: <logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-26 15:04:03
+(epstopdf)                    size: 51603 bytes
+(epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
+ogo.eps>
+(epstopdf)             \includegraphics on input line 279.
+Package epstopdf Info: Output file is already uptodate.
+File: logo-eps-converted-to.pdf Graphic file (type pdf)
+<use logo-eps-converted-to.pdf>
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 279.
+(pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
+Overfull \hbox (4.16098pt too wide) has occurred while \output is active
+ | $[]$ 
+ []
+
+[10pdfTeX warning (ext4): destination with the same identifier (name{cite.latex
+companion}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.279 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.la
+texcompanion}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.279 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.la
+texcompanion}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.279 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.la
+texcompanion}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.279 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.la
+texcompanion}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.279 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.la
+texcompanion}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.279 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.la
+texcompanion}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.279 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.la
+texcompanion}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.279 
+      ]pdfTeX warning (ext4): destination with the same identifier (name{cite.l
+atexcompanion}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.280 \bibitem{latexcompanion}
+                              
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (130.11789pt too wide) has occurred while \output is active
+$[]$ 
+ []
 
 Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    date: 2020-07-26 15:04:03
@@ -1437,66 +1574,12 @@ File: logo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 287.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
-Overfull \hbox (4.16098pt too wide) has occurred while \output is active
- | $[]$ 
+Overfull \hbox (132.19838pt too wide) has occurred while \output is active
+ $[]$ 
  []
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{cite.latexc
-ompanion}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.287 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.la
-texcompanion}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.287 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.la
-texcompanion}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.287 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.la
-texcompanion}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.287 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.la
-texcompanion}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.287 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.la
-texcompanion}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.287 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.la
-texcompanion}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.287 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.la
-texcompanion}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.287 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.la
-texcompanion}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.287 
-      ]pdfTeX warning (ext4): destination with the same identifier (name{sectio
-n.1}) has been already used, duplicate ignored
+[11]pdfTeX warning (ext4): destination with the same identifier (name{section.1
+}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.292 \section{Pi Approximation}
@@ -1523,7 +1606,29 @@ LaTeX Font Info:    Trying to load font information for TS1+txtt on input line
 fd
 File: ts1txtt.fd 2000/12/15 v3.1
 )
-Underfull \vbox (badness 7704) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package epstopdf Info: Source file: <logo.eps>
+(epstopdf)                    date: 2020-07-26 15:04:03
+(epstopdf)                    size: 120590 bytes
+(epstopdf)             Output file: <logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-26 15:04:03
+(epstopdf)                    size: 51603 bytes
+(epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
+ogo.eps>
+(epstopdf)             \includegraphics on input line 37.
+Package epstopdf Info: Output file is already uptodate.
+File: logo-eps-converted-to.pdf Graphic file (type pdf)
+<use logo-eps-converted-to.pdf>
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 37.
+(pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
+
+Overfull \hbox (4.16098pt too wide) has occurred while \output is active
+ | $[]$ 
+ []
+
+[12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (130.11789pt too wide) has occurred while \output is active
@@ -1538,18 +1643,18 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 57.
+(epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 57.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 74.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (132.19838pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[9]
+[13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package epstopdf Info: Source file: <logo.eps>
@@ -1560,18 +1665,18 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 115.
+(epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 115.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 111.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (4.16098pt too wide) has occurred while \output is active
  | $[]$ 
  []
 
-[10])pdfTeX warning (ext4): destination with the same identifier (name{section.
+[14])pdfTeX warning (ext4): destination with the same identifier (name{section.
 2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1595,18 +1700,18 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 34.
+(epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 34.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 10.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (132.19838pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[11]
+[15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package epstopdf Info: Source file: <logo.eps>
@@ -1617,18 +1722,18 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 92.
+(epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 92.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 47.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (4.16098pt too wide) has occurred while \output is active
  | $[]$ 
  []
 
-[12]
+[16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1644,18 +1749,67 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 150.
+(epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 150.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 84.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (132.19838pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[13])
+[17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package epstopdf Info: Source file: <logo.eps>
+(epstopdf)                    date: 2020-07-26 15:04:03
+(epstopdf)                    size: 120590 bytes
+(epstopdf)             Output file: <logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-26 15:04:03
+(epstopdf)                    size: 51603 bytes
+(epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
+ogo.eps>
+(epstopdf)             \includegraphics on input line 121.
+Package epstopdf Info: Output file is already uptodate.
+File: logo-eps-converted-to.pdf Graphic file (type pdf)
+<use logo-eps-converted-to.pdf>
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 121.
+(pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
+
+Overfull \hbox (4.16098pt too wide) has occurred while \output is active
+ | $[]$ 
+ []
+
+[18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (130.11789pt too wide) has occurred while \output is active
+$[]$ 
+ []
+
+Package epstopdf Info: Source file: <logo.eps>
+(epstopdf)                    date: 2020-07-26 15:04:03
+(epstopdf)                    size: 120590 bytes
+(epstopdf)             Output file: <logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-07-26 15:04:03
+(epstopdf)                    size: 51603 bytes
+(epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
+ogo.eps>
+(epstopdf)             \includegraphics on input line 158.
+Package epstopdf Info: Output file is already uptodate.
+File: logo-eps-converted-to.pdf Graphic file (type pdf)
+<use logo-eps-converted-to.pdf>
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 158.
+(pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
+
+Overfull \hbox (132.19838pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[19])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 594.
 Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    date: 2020-07-26 15:04:03
@@ -1676,7 +1830,7 @@ Overfull \hbox (4.16098pt too wide) has occurred while \output is active
  | $[]$ 
  []
 
-[14]
+[20]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 594.
  (document.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 594.
@@ -1694,11 +1848,11 @@ runsystem(del document.out.pyg)...executed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 594.
  ) 
 Here is how much of TeX's memory you used:
- 11827 strings out of 480790
- 192985 string characters out of 2894018
- 498799 words of memory out of 3000000
- 27522 multiletter control sequences out of 15000+200000
- 585873 words of font info for 140 fonts, out of 3000000 for 9000
+ 11832 strings out of 480790
+ 193046 string characters out of 2894018
+ 498797 words of memory out of 3000000
+ 27523 multiletter control sequences out of 15000+200000
+ 584833 words of font info for 139 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,32n,41p,963b,643s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/akshansh2000/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.
@@ -1719,9 +1873,9 @@ grams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/akshansh2000/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/akshansh2000/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/akshansh
 2000/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (14 pages, 4212453 bytes).
+Output written on document.pdf (20 pages, 4218731 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
+ 264 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
