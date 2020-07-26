@@ -29,9 +29,9 @@ Algorithms involving Monte Carlo Methods are comparatively scalable. They see a 
 
 
 \section*{Introduction}
-In probability, we find various situations where an analytical solution cannot be calculated directly. This calculation may be difficult due to various reasons such as many random variables, disturbances (noise) in the observations, etc.
+In probability, we encounter various situations where an analytical solution cannot be calculated directly. This calculation may be difficult due to various reasons such as having many random variables, disturbances (noise) in the observations, etc.
 
-The Monte Carlo Method came into existence around the 1940s by scientists working on the atomic bomb. Named after Monaco, a city infamous for its casinos and games of ‘chances’, its purpose was to use random input samples to understand a complex system. 
+The Monte Carlo Method came into existence around the 1940s by scientists involved in The Manhattan Project (which led to the development of the atomic bomb). Named after Monaco, a city infamous for its casinos and games of ‘chances’, its purpose was to use random input samples to understand a complex system. 
 
 Nowadays, the Monte Carlo method provides usage in a wide range of risk analysis problems in almost every industry. These use-cases find prominence in professional fields such as finance, engineering, R\&D, and more.
 
@@ -41,11 +41,13 @@ Nowadays, the Monte Carlo method provides usage in a wide range of risk analysis
 
 \pagebreak 
 
-The Statistician, based on the (F)Law of Averages, believes that the river is safe to cross, with its average depth of 3 ft (0.91 m). However, taking a numerical value as a substitute for an uncertainty does not constitute for the random variations. This is where the Monte Carlo Method steps in, providing accuracy over ‘single-point estimate analysis.
+The Statistician, based on the (F)Law of Averages, believes that the river is safe to cross, with its average depth of 3 ft (0.91 m). In reality, the river is 6 inches deep around the banks, but 8 feet deep at the centre! The term ‘average depth’ therefore has no useful meaning. This Flaw of Averages, states that any plan based on average assumptions is likely to be wrong.
 
-In such situations, it's possible to find probability distributions involving random variables using simulations.
+Similarly, taking a numerical value as a substitute for an uncertainty does not constitute for the random variations. This is where the Monte Carlo Method steps in, providing accuracy over ‘single-point' estimate analysis.
 
-Monte Carlo Methods / Experiments are algorithmic simulations which depend on repeating random sampling to get analytical results.[1] They allow significance in the risks of quantitative analysis. This concept uses randomness to find probability distributions.
+Using Monte Carlo Method, it's possible to find probability distributions involving random variables, using simulations.
+
+Monte Carlo Methods / Experiments are algorithmic simulations that depend on repeated random sampling to get analytical results.\textsuperscript{[1]} They provide significance in the risks of quantitative analysis. This concept uses randomness to determine probability distributions.
 
 The three basic use cases of Monte Carlo are:
 \begin{itemize}
@@ -57,30 +59,28 @@ The three basic use cases of Monte Carlo are:
 \subsection*{Fractals}
 
 \authorIntro{\includegraphics[width=3cm]{fractal_1}\\
-\scriptsize{Figure 2. \normalfont An example of an infinite fractal \\(Source: \textcolor{blue}{\url{https://researchgate.net}})}}
+\scriptsize{Figure 2. \normalfont An example of an Infinite Fractal \\(Source: \textcolor{blue}{\url{https://researchgate.net}})}}
 	
-A fractal is 'a rough or fragmented geometric shape that can be subdivided in parts, each of which is (at least approximately) a reduced/size copy of the whole'. The term was coined by \textit{Benoît Mandelbrot} in 1975 and was derived from the Latin fractus meaning broken or fractured.
+A fractal is ‘a rough or fragmented geometric shape that can be subdivided in parts, each of which is (at least approximately) a reduced/size copy of the whole’. The term was coined by \textit{Benoît Mandelbrot} in 1975 and was derived from the Latin fractus meaning broken or fractured.
 
-Fractals are found in many areas of nature such as trees, ferns, flowers, and even river deltas. Growth Spirals follow the Fibonnaci sequence while forming fractals. A good example is that of Romanesco Brocolli! The Human Respiratory System with its level of bronchi, bronchioles, and alveoli are proof of the omnipresence of fractals.
+Fractals are found in nature in the form of trees, ferns, flowers, and even river deltas. Growth Spirals follow the Fibonnaci sequence while forming fractals. A good example is that of the Romanesco Brocolli! The Human Respiratory System with its level of bronchi, bronchioles, and alveoli are proof of the omnipresence of fractals.
 
 Two main characteristics of Fractals are:
 \begin{itemize}
     \item \textbf{Self Similarity}: Every subdivision of a fractal has the same shape as the whole, i.e. self similar, which means that no matter how much one magnifies a fractal, the result would be the same.
     
     \authorIntro{\includegraphics[width=3cm]{fractal_2}\\
-    	\scriptsize{Figure 3. \normalfont A pentagonal fractal \\(Source: \textcolor{blue}{\url{https://researchgate.net}})}}
+    	\scriptsize{Figure 3. \normalfont A Pentagonal Fractal \\(Source: \textcolor{blue}{\url{https://researchgate.net}})}}
 
-    \item \textbf{Non-Integer Dimensions}: Many natural phenomena don’t revolve around whole numbers and classical geometries like squares, circles, 3D cubes and spheres, e.g. \textit{Golden Ratio}, value of Pi, etc. Similarly, Fractals don’t have a dimension of a whole number, but a number between one and two dimensions. Many natural phenomena are better described using a dimension between two whole numbers.\\
-
-    So, while a straight line has a dimension of one, a fractal curve will have a dimension between one and two, depending on how much space it takes up as it twists and curves. The more the flat fractal fills a plane, the closer it approaches two dimensions.
+    \item \textbf{Non-Integer Dimensions}: Many natural phenomena don’t revolve around whole numbers and classical geometries like squares, circles, 3D cubes and spheres, e.g. \textit{Golden Ratio}, value of Pi, etc. Similarly, Fractals don’t have a dimension of a whole number, but a number between one and two dimensions. Many natural phenomena are better described using a dimension between two whole numbers.
 \end{itemize}
 
-Fractal geometry is expanding our ability to invent better devices which resonate with the surrounding nature.
+Fractal geometry proves useful in expanding our ability to invent better devices which resonate with the surrounding nature.
 
 The role of fractals has been crucial in development of the following areas:
 
 \authorIntro{\includegraphics[width=3cm]{fractal_tree}\\
-	\scriptsize{Figure 4. \normalfont A fractal tree \\(Source: \textcolor{blue}{\url{https://tomchaplin.github.io}})}}
+	\scriptsize{Figure 4. \normalfont A Fractal Tree \\(Source: \textcolor{blue}{\url{https://tomchaplin.github.io}})}}
 
 \begin{itemize}
     \item Generation of new music, art forms
@@ -164,12 +164,12 @@ Now, let's try making the tree as dense as possible.\\
     \fbox{\includegraphics[width=3.3cm]{fractal_tree_ss_5}}
     
     \vspace{10pt}
-    \hspace{90pt}\scriptsize{\textbf{Figure 7}. \normalfont Simulating the Fractal Tree by increasing the depth}
+    \hspace{90pt}\scriptsize{\textbf{Figure 7}. \normalfont Simulating the Fractal Tree by increasing depth}
 \end{figure}
 
 \pagebreak
 
-The tree is a lot denser, and a lot taller now. Changing the angle makes the density difference look\leftHighlight{\textcolor{blue}{\url{https://bit.ly/fractals_simulation}}} even more profound. For reference, the video is hosted \textcolor{blue}{\href{https://bit.ly/fractals_simulation}{here}}.
+The tree is much denser, and a lot taller now. Changing the angle makes the density difference look\leftHighlight{\textcolor{blue}{\url{https://bit.ly/fractals_simulation}}} even more profound. For reference, the video is hosted \textcolor{blue}{\href{https://bit.ly/fractals_simulation}{here}}.
 
 \section{Estimation of Pi}
 
@@ -206,7 +206,7 @@ The best thing is that we don’t need to consider graphics for simulation. We o
     \item calculate the above result, i.e. \textbf{4 * k}
 \end{itemize}
 
-To have a clearer view of the above, we have prepared a simulation for the same. Here are some screenshots of the same:
+To have a clearer view of the above, we have prepared a simulation. Here are some screenshots of the same:
 
 \pagebreak
 
