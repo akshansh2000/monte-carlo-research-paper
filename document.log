@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.26)  26 JUL 2020 16:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.26)  26 JUL 2020 16:20
 entering extended mode
 **./document.tex
 (document.tex
@@ -1522,7 +1522,7 @@ l.276
 n.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.281 \section{Pi Approximation}
+l.283 \section{Pi Approximation}
                                 
 \openout3 = `document.pyg'.
 
@@ -1558,11 +1558,11 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 37.
+(epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 37.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 35.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (132.19838pt too wide) has occurred while \output is active
@@ -1578,11 +1578,11 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 74.
+(epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 74.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 72.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (4.16098pt too wide) has occurred while \output is active
@@ -1602,11 +1602,11 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 111.
+(epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 111.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 109.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (132.19838pt too wide) has occurred while \output is active
@@ -1617,7 +1617,7 @@ Overfull \hbox (132.19838pt too wide) has occurred while \output is active
 2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.421 \section{Fractal Trees}
+l.423 \section{Fractal Trees}
                              
 \openout3 = `document.pyg'.
 
@@ -1633,11 +1633,11 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 10.
+(epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 10.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 8.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (4.16098pt too wide) has occurred while \output is active
@@ -1657,11 +1657,11 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 47.
+(epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 47.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 45.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (132.19838pt too wide) has occurred while \output is active
@@ -1677,11 +1677,11 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 84.
+(epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 84.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 82.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (4.16098pt too wide) has occurred while \output is active
@@ -1701,11 +1701,11 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 121.
+(epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 121.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 119.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (132.19838pt too wide) has occurred while \output is active
@@ -1721,11 +1721,11 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 158.
+(epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 158.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 156.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (4.16098pt too wide) has occurred while \output is active
@@ -1733,7 +1733,7 @@ Overfull \hbox (4.16098pt too wide) has occurred while \output is active
  []
 
 [18])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 583.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 585.
 
 Overfull \hbox (130.11789pt too wide) has occurred while \output is active
 $[]$ 
@@ -1747,11 +1747,11 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51603 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 583.
+(epstopdf)             \includegraphics on input line 585.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 583.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 585.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (132.19838pt too wide) has occurred while \output is active
@@ -1759,10 +1759,10 @@ Overfull \hbox (132.19838pt too wide) has occurred while \output is active
  []
 
 [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 583.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 585.
  (document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 583.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 583.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 585.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 585.
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: 269299DAFE1599C8ED2F8614F17565D2;243.
 
@@ -1773,7 +1773,7 @@ runsystem(del document.pyg)...executed.
 
 runsystem(del document.out.pyg)...executed.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 583.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 585.
  ) 
 Here is how much of TeX's memory you used:
  11811 strings out of 480790
@@ -1801,9 +1801,9 @@ grams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/akshansh2000/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/akshansh2000/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/akshansh
 2000/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (19 pages, 4107024 bytes).
+Output written on document.pdf (19 pages, 4107300 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
+ 254 PDF objects out of 1000 (max. 8388607)
  35 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
