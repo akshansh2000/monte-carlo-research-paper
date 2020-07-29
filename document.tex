@@ -40,7 +40,7 @@ Nowadays, the Monte Carlo method provides usage in a wide range of risk analysis
 \scriptsize{\textbf{Figure 1}. The Flaw of Averages (Source: Sam L. Savage, Hoboken, NJ: John Wiley \& Sons, 2009)}
 
 \normalsize
-The Statistician, based on the (F)Law of Averages, believes that the river is safe to cross, with its average depth of 3 ft (0.91 m). In reality, the river is 6 inches deep around the banks, but 8 feet deep at the centre! The term ‘average depth’ therefore has no useful meaning. This Flaw of Averages, states that any plan based on average assumptions is likely to be wrong.
+The Statistician, based on the (F)Law of Averages, believes that the river is safe to cross, with its average depth of 3 ft (0.91 m). In reality, the river is 6 inches deep around the banks, but 8 feet deep at the centre! The term ‘average depth’ therefore has no useful meaning. This Flaw of Averages, states that any plan based on average assumptions is likely to be wrong, on average.
 
 Similarly, taking a numerical value as a substitute for an uncertainty does not constitute for the random variations. This is where the Monte Carlo Method steps in, providing accuracy over ‘single-point' estimate analysis.
 
@@ -60,7 +60,7 @@ The three basic use cases of Monte Carlo are:
 \authorIntro{\includegraphics[width=3cm]{fractal_1}\\
 \scriptsize{Figure 2. \normalfont An example of an Infinite Fractal \\(Source: \textcolor{blue}{\url{https://researchgate.net}})}}
 	
-A fractal is ‘a rough or fragmented geometric shape that can be subdivided in parts, each of which is (at least approximately) a reduced/size copy of the whole’. The term was coined by \textit{Benoît Mandelbrot} in 1975 and was derived from the Latin fractus meaning broken or fractured.
+A fractal is ‘a rough or fragmented geometric shape that can be subdivided in parts, each of which is (at least approximately) a reduced size copy of the whole’. The term was coined by \textit{Benoît Mandelbrot} in 1975 and was derived from the Latin fractus meaning broken or fractured.
 
 Fractals are found in nature in the form of trees, ferns, flowers, and even river deltas. Growth Spirals follow the Fibonnaci sequence while forming fractals. A good example is that of the Romanesco Brocolli! The Human Respiratory System with its level of bronchi, bronchioles, and alveoli are proof of the omnipresence of fractals.
 
@@ -102,11 +102,11 @@ Here are some examples of Fractal patterns in nature:
 \section*{Mathematical Foundation}
 The Law of Large Numbers states that with the increase in the number of random trials, the estimated quantity becomes more accurate.\textsuperscript{[2]}
 
-The Monte Carlo Method approximates a property of a huge distribution, by averaging that property for N of these chosen at random i.e. through drawing samples. Drawing a sample may involve the calculation of the probability of a random event or a computational simulation i.e. Monte Carlo Simulation.\textsuperscript{[4]}
+The Monte Carlo Method approximates a property of a huge distribution, by averaging that property for N of these chosen at random i.e. through drawing samples. Drawing a sample may involve the calculation of the probability of a random event or a computational simulation i.e. Monte Carlo Simulation.\textsuperscript{[3]}
 
 Monte Carlo Methods can be expressed in \textit{mathematical terms} as follows:
 
-Consider a multi-dimensional random variable, \textbf{X}, with its Probability Density Function (PDF) as \textbf{f\textsubscript{X}(x)}. Then, the expected value of the function \textbf{g(X)}\textsuperscript{[3]} is:
+Consider a multi-dimensional random variable, \textbf{X}, with its Probability Density Function (PDF) as \textbf{f\textsubscript{X}(x)}. Then, the expected value of the function \textbf{g(X)}\textsuperscript{[4]} is:
 
 $$E(g(X)) = \sum_{x\varepsilon X} g(x)f\textsubscript{X}(x);\ if\ X\ is\ discrete$$
 $$E(g(X)) = \int_{x\varepsilon X} g(x)f\textsubscript{X}(x);\ if\ X\ is\ continuous$$
@@ -138,7 +138,7 @@ The angle determines the angle of inclination between the current branch and its
 
 The length of the initial branch is directly proportional to the depth of the tree. After each level, the length of the branch reduces by 30\%. Thus, the bigger the depth, the denser the tree.
 
-Here are some more screenshots:
+Here are some screenshots:
 
 \pagebreak
 
@@ -241,12 +241,12 @@ Moreover, the simulations have proved to deliver satisfactory and expected resul
 {[Accessed: 10-April-2020]}\\
 
 \bibitem{latexcompanion}
-"Mathematical Foundations of Monte Carlo Methods”\\ \textcolor{blue}{\url{https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/monte-carlo-methods-mathematical-foundations/pdf-and-cdf}}\\
-{[Accessed: 12-April-2020]}\\
-
-\bibitem{latexcompanion}
 "Monte Carlo Methods and Importance Sampling”\\ \textcolor{blue}{\url{http://ib.berkeley.edu/labs/slatkin/eriq/classes/guest\_lect/mc\_lecture\_notes.pdf }}\\
 {[Accessed: 2-May-2020]}\\
+
+\bibitem{latexcompanion}
+"Mathematical Foundations of Monte Carlo Methods”\\ \textcolor{blue}{\url{https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/monte-carlo-methods-mathematical-foundations/pdf-and-cdf}}\\
+{[Accessed: 12-April-2020]}\\
 
 \bibitem{latexcompanion}
 Zou, Mingqing, et al. "A Monte Carlo method for simulating fractal surfaces." \textit{Physica A: Statistical Mechanics and its Applications} 386.1 (2007): 176-186.\\
