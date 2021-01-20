@@ -8,8 +8,8 @@
 
 \begin{document}
 	
-	\title{Mathematical Simulations through Monte Carlo Methods}
-	\secondTitle{Fractal Trees and the Approximation of Pi}
+	\title{Mathematical Simulation using Monte Carlo Method}
+	\secondTitle{Approximation of Pi using Flutter}
 	\author{Akshansh Bhanjana - Aryan Gupta}
 	
 	\maketitle
@@ -21,85 +21,58 @@
 			University of Delhi, pursuing majors in Information Technology \& Mathematical Innovations.}}
 	
 	\begin{abstract}
-		Algorithms involving Monte Carlo Methods are comparatively scalable. They see a lot of usage in physical systems. An example of their real-life application are Game Development algorithms. The Minimax Algorithm is loosely based on this idea. This method can reduce complex models to simpler events, which can be simulated with ease. This paper involves simulations of two such mathematical phenomena: Estimating the Value of Pi, and Fractal Trees. The simulations have been written in an open-source language: Dart.
+		Algorithms involving Monte Carlo Methods are comparatively scalable. They see a lot of usage in physical systems. This paper involves a Monte Carlo simulation to estimate the value of Pi, written in an open source language, Dart.
 	\end{abstract}
 	
 	\monthyear{June 2020}
 	\artNature{GENERAL ARTICLE}
 	
 	
-	\section*{Introduction}
-	In probability, we encounter various situations where an analytical solution cannot be calculated directly. This calculation may be difficult due to various reasons such as having many random variables, disturbances (noise) in the observations, etc.
+	\section{Introduction}
+	In real life, we encounter various situations where an analytical solution cannot be calculated directly. This calculation maybe difficult due to various reasons such as having many random variables, disturbances (noise) in the observations, etc.
 	
-	The Monte Carlo Method came into existence around the 1940s by scientists involved in The Manhattan Project (which led to the development of the atomic bomb). Named after Monaco, a city infamous for its casinos and games of ‘chances’, its purpose was to use random input samples to understand a complex system. 
+	Monte Carlo methods are a class of computational algorithms which rely on repeated random sampling to obtain numerical results. The underlying concept is to use randomness to solve problems that might be deterministic in nature.
 	
-	Nowadays, the Monte Carlo method provides usage in a wide range of risk analysis problems in almost every industry. These use-cases find prominence in professional fields such as finance, engineering, R\&D, and more.
+	The core meaning of a Monte Carlo simulation is that we can get an unbiased representative group of samples from a large ocean of possibilities if we allow the simulation to evolve randomly.
+	
+	The Monte Carlo Method came into existence around the 1940s by scientists involved in The Manhattan Project (which led to the development of the atomic bomb). Named after Monaco, a city infamous for its casinos and games of 'chances', its purpose was to use random input samples to understand a complex system. 
+	
+	Nowadays, the Monte Carlo method provides usage in a wide range of risk analysis problems in almost every industry. These use-cases find prominence in professional fields such as finance, engineering, R\&D and more.
+	
+	\section{The Concept}
+	We usually depend on analytic solutions to determine the worth of something. However, in real life, we rarely find an analytical solution to a problem. Most real life problems involve a sense of uncertainty, and randomness to it.
+	
+	Forecasting, though fairly uncertain, are typically communicated as these single precise average numbers. This leads to a number of systematic errors which is known as the Flaw of Averages.
+	
+	Consider a Statistician trying to cross a river (Figure 1).
 	
 	\includegraphics[width=10cm]{the-flaw-of-averages}
 	
 	\scriptsize{\textbf{Figure 1}. The Flaw of Averages (Source: Sam L. Savage, Hoboken, NJ: John Wiley \& Sons, 2009)}
 	
 	\normalsize
-	The Statistician, based on the (F)Law of Averages, believes that the river is safe to cross, with its average depth of 3 ft (0.91 m). In reality, the river is 6 inches deep around the banks, but 8 feet deep at the centre! The term ‘average depth’ therefore has no useful meaning. This Flaw of Averages, states that any plan based on average assumptions is likely to be wrong, on average.
+	The Statistician deems the river safe to cross based on the sign which declares the average depth of the river to be 3 feet. However, in reality, the river is only 6 inch deep around the banks, but 8 feet deep at the centre. The foolhardy statistician drowns depending on the metric of averages. 
 	
-	Similarly, taking a numerical value as a substitute for an uncertainty does not constitute for the random variations. This is where the Monte Carlo Method steps in, providing accuracy over ‘single-point' estimate analysis.
+	The Flaw of Averages, formulated by Sam Savage states that 'A plan based on average assumptions is wrong, on average.'
 	
-	Using Monte Carlo Method, it's possible to find probability distributions involving random variables, using simulations.
+	Thus, taking a numerical value as a substitute for an uncertainty does not constitute for random variations. This is where the Monte Carlo Method steps in, providing accuracy over ‘single-point’ estimate analysis.
 	
-	Monte Carlo Methods / Experiments are algorithmic simulations that depend on repeated random sampling to get analytical results.\textsuperscript{[1]} They provide significance in the risks of quantitative analysis. This concept uses randomness to determine probability distributions.
+	Monte Carlo Method achieves this by applying the Law of Large Numbers; which quite rightly states, that 'An average tends to come closer to its expected value the more samples we have.'
 	
-	The three basic use cases of Monte Carlo are:
+	The percentage error of Monte Carlo Method is inversely proportional to $\sqrt{n}$, where n is the number of random samples. As the number of samples increase, the percentage error decreases.
+	
+	Therefore, two important components of Monte Carlo are the random samples, and the large number of random samples.
+	
+	Monte Carlo Method can be best understood through visualization. Using the Monte Carlo Method, it becomes possible to find probability distributions involving random variables, using simulations, known as Monte Carlo simulations. These algorithmic simulations depend on repeated random samplings to get approximate analytical results.
+	
+	Mathematically, The Monte Carlo Method has 3 use cases:
 	\begin{itemize}
 		\item \textbf{estimating} probability distribution of a function
 		\item \textbf{approximating} mean, variance, or other such quantities
 		\item \textbf{optimizing} functions, i.e. maximizing / minimizing functions
 	\end{itemize}
 	
-	\subsection*{Fractals}
-	
-	\authorIntro{\includegraphics[width=3cm]{fractal_1}\\
-		\scriptsize{Figure 2. \normalfont An example of an Infinite Fractal \\(Source: \textcolor{blue}{\url{https://researchgate.net}})}}
-	
-	A fractal is ‘a rough or fragmented geometric shape that can be subdivided in parts, each of which is (at least approximately) a reduced size copy of the whole’. The term was coined by \textit{Benoît Mandelbrot} in 1975 and was derived from the Latin fractus meaning broken or fractured.
-	
-	Fractals are found in nature in the form of trees, ferns, flowers, and even river deltas. Growth Spirals follow the Fibonnaci sequence while forming fractals. A good example is that of the Romanesco Brocolli! The Human Respiratory System with its level of bronchi, bronchioles, and alveoli are proof of the omnipresence of fractals.
-	
-	Two main characteristics of Fractals are:
-	\begin{itemize}
-		\item \textbf{Self Similarity}: Every subdivision of a fractal has the same shape as the whole, i.e. self similar, which means that no matter how much one magnifies a fractal, the result would be the same.
-		
-		\authorIntro{\includegraphics[width=3cm]{fractal_2}\\
-			\scriptsize{Figure 3. \normalfont A Pentagonal Fractal \\(Source: \textcolor{blue}{\url{https://researchgate.net}})}}
-		
-		\item \textbf{Non-Integer Dimensions}: Many natural phenomena don’t revolve around whole numbers and classical geometries like squares, circles, 3D cubes and spheres, e.g. \textit{Golden Ratio}, value of Pi, etc. Similarly, Fractals don’t have a dimension of a whole number, but a number between one and two dimensions. Many natural phenomena are better described using a dimension between two whole numbers.
-	\end{itemize}
-	
-	Fractal geometry proves useful in expanding our ability to invent better devices which resonate with the surrounding nature.
-	
-	The role of fractals has been crucial in development of the following areas:
-	
-	\begin{itemize}
-		\item Generation of new music, art forms   
-		\item Signal and Image Compression    
-		\item Seismology
-		\item Computer Graphic designing (e.g. hills can be made through recursive algorithms of a triangle)
-	\end{itemize}
-	
-	\subsection*{Types of fractals}
-	
-	Here are some examples of Fractal patterns in nature:
-	
-	\authorIntro{\includegraphics[width=3cm]{fractal_tree_ss_1}\\
-		\scriptsize{Figure 4. \normalfont Simulating the Fractal Tree}}
-	
-	\begin{enumerate}
-		\item Trees
-		\item River Deltas
-		\item Growth Spirals
-		\item Flowers
-	\end{enumerate}
-	
-	\section*{Mathematical Foundation}
+	\section{Mathematical Foundation}
 	The Law of Large Numbers states that with the increase in the number of random trials, the estimated quantity becomes more accurate.\textsuperscript{[2]}
 	
 	The Monte Carlo Method approximates a property of a huge distribution, by averaging that property for N of these chosen at random i.e. through drawing samples. Drawing a sample may involve the calculation of the probability of a random event or a computational simulation i.e. Monte Carlo Simulation.\textsuperscript{[3]}
@@ -115,57 +88,40 @@
 	
 	$$ \overline{g}\textsubscript{n}(x) = \frac{1}{n} \sum_{i=1}^{n}g(x\textsubscript{i}) $$
 	
-	\section*{Algorithmic/Computer Implementation}
-	Let's consider an example of \textbf{trees}.
+	\section{Monte Carlo Error Analysis}
+	The Monte Carlo method clearly yields approximate results. The accuracy deppends on the number of values $N$ that we use for the average. A possible measure of the error is the \emph{variance} $\sigma^2$ defined by:
 	
+	$$ \sigma^2 = \langle f^2 \rangle - \langle f \rangle^2 $$
 	
-	\setlength{\leftskip}{0cm}
-	\section{Fractal Trees}
+	where
 	
-	Conventional Statistics involve characterizing surfaces. This multiple scalar nature can be depicted through fractal geometry.\textsuperscript{[5]}
+	$$ \langle f \rangle = \frac{1}{N} \sum_{i=1}^{n}f(x\textsubscript{i}) $$
 	
-	To have an even clearer view of the above, we have prepared a simulation. Attached are some screenshots of the same.
+	and
 	
-	In the given simulation, notice the sliders at the bottom. These represent the angle between branches, the depth of the tree, and the zoom level respectively. Even a slight change in the angle or the depth can produce an entirely different result.
+	$$ \langle f^2 \rangle = \frac{1}{N} \sum_{i=1}^{n}f(x\textsubscript{i})^2 $$
 	
-	Basically, the simulation of a Fractal Tree is a recursive function. It has 2 parameters:
-	\begin{itemize}
-		\item angle
-		\item length
-	\end{itemize}
+	The \emph{standard deviation} is $\sigma$. However, the error decreases with the number of points $N$, but the quantity $\sigma$ defines does not. Hence, this cannot be a good measure of the error.
 	
-	The angle determines the angle of inclination between the current branch and its parent branch. The depth determines the depth of the tree (number of levels).
+	Imagine that we perform several measurements of the integral, each of them yielding a result $I\textsubscript{n}$. These values have been obtained with different sequences of $N$ random numbers. According to the central limit theorem, these values would be normally dstributed around a mean $\langle I \rangle$. Suppose that we have a set of $M$ such measurements ${I\textsubscript{n}}$. A convenient measure of the differences of these measurements is the \emph{standard deviation of the means} $\sigma\textsubscript{M}$:
 	
-	The length of the initial branch is directly proportional to the depth of the tree. After each level, the length of the branch reduces by 30\%. Thus, the bigger the depth, the denser the tree.
+	$$ \sigma^2\textsubscript{M} = \langle I^2 \rangle - \langle I \rangle^2 $$
 	
-	Here are some screenshots:
+	where
 	
-	\pagebreak
+	$$ \langle I \rangle = \frac{1}{M} \sum_{n=1}^{M}I\textsubscript{n} $$
 	
-	\begin{figure}[ht]
-		\fbox{\includegraphics[width=3.3cm]{fractal_tree_ss_2}}
-		\fbox{\includegraphics[width=3.3cm]{fractal_tree_ss_3}}
-		
-		\vspace{10pt}
-		\hspace{-10pt}\scriptsize{\textbf{Figure 5}. \normalfont Simulating the Fractal Tree with different rotation angles}
-	\end{figure}
+	and
 	
-	\setlength{\leftskip}{-0cm}
-	Now, let's try making the tree as dense as possible.\\
+	$$ \langle I^2 \rangle = \frac{1}{M} \sum_{n=1}^{M}I^2\textsubscript{n} $$
 	
-	\begin{figure}[h!]
-		\fbox{\includegraphics[width=3.3cm]{fractal_tree_ss_4}}
-		\fbox{\includegraphics[width=3.3cm]{fractal_tree_ss_5}}
-		
-		\vspace{10pt}
-		\hspace{5pt}\scriptsize{\textbf{Figure 6}. \normalfont Simulating the Fractal Tree by increasing depth}
-	\end{figure}
+	Although $\sigma_M$ gives us an estimate of the actual error, making additional measurements is not practical. Instead, it can be proven that:
 	
-	\pagebreak
+	$$ \sigma\textsubscript{M} \approx \sigma/\sqrt{N} $$
 	
-	The\rightHighlight{For reference, the video is hosted at \textcolor{blue}{\url{https://bit.ly/resonance_fractals_sim}}} tree is much denser, and a lot taller now. Changing the angle makes the density difference look even more profound.
+	This relation becomes exact in the limit of a very large number of measurements.\textsuperscript{[5]}
 	
-	\section{Estimation of Pi}
+	\section{Algorithmic/Computer Implementation (Estimating Pi)}
 	
 	The plan is to simulate random \textbf{(x, y)} points on a 2-D plane with the domain as a square of side \textbf{2R} units. Consider a circle inside the same domain with the same diameter and inscribed into the square. Basically,
 	
@@ -173,10 +129,12 @@
 	
 	that is,
 	
-	\authorIntro{\includegraphics[width=3.5cm, height=3.5cm]{pi}\\
-		\scriptsize{Figure 8. \normalfont Distribution of randomly plotted points between -R and R\\
+	\authorIntro{
+		\includegraphics[width=3.5cm, height=3.5cm]{pi}\\
+		\scriptsize{Figure 2. \normalfont Distribution of randomly plotted points between -R and R\\
 			(Source: \\
-			\textcolor{blue}{\url{www.physics.smu.edu}})}}
+			\textcolor{blue}{\url{www.physics.smu.edu}})}
+		}
 	
 	$$\Pi\ =\ 4\ *\ k$$
 	
@@ -210,39 +168,40 @@
 		\fbox{\includegraphics[width=3cm]{pi_ss_3}}
 		
 		\vspace{-10pt}
-		\hspace{30pt}\scriptsize{\textbf{Figure 9}. \normalfont Simulating the Approximation of Pi, density increasing with time}\\
+		\hspace{30pt}\scriptsize{\textbf{Figure 3}. \normalfont Simulating the Approximation of Pi, density increasing with time}\\
 	\end{figure}
-	\leftHighlight{For reference, the video is hosted at \textcolor{blue}{\url{https://bit.ly/resonance_pi_sim}}}
-	In the above, it is clearly evident that as the number of points increases, the approximate value of Pi approaches the real value. This is in complete agreement with the hypotheses above, and hence, proves that Monte Carlo simulations are good approximations when one can’t calculate the exact value.
+
+	\rightHighlight{For reference, the video is hosted at \textcolor{blue}{\url{https://youtu.be/xaFbJSVc4cc}}}
 	
-	\pagebreak
+	In the above, it is clearly evident that as the number of points increases, the approximate value of Pi approaches the real value. This is in complete agreement with the hypotheses above, and hence, proves that Monte Carlo simulations are good approximations when one can’t calculate the exact value.
+		
 	\section{Conclusion}
-	In this paper, Monte Carlo simulations have been used to show two primary use-cases:
-	\begin{itemize}
-		\item simulating Fractal Trees, and
-		\item estimating the value of Pi
-	\end{itemize}
+	In this paper, a Monte Carlo simulation has been used to estimate the value of $\pi$.
 	
 	The Monte Carlo Method has been shown to be valid and effective, through testing at various parameters.
 	
-	Moreover, the simulations have proved to deliver satisfactory and expected results, whilst clearly demonstrating the feasibility of the Monte Carlo Method. These methods hold great promise in the future of AI, and have already forayed into the world of deep-learning.\\\\\\\\\\\\\\\\
+	Moreover, the simulation has proved to deliver satisfactory and expected results, whilst clearly demonstrating the feasibility of the Monte Carlo Method. These methods hold great promise in the future of AI, and have already forayed into the world of deep-learning.
+	
+	\section{Resources}
+	The entire code for the above simulation (along with the Flutter project) can be found at:\\ \textcolor{blue}{\url{https://github.com/akshansh2000/pi_approximation}}.
+	
+	To see the project in action online, one can refer to the dartpad:\\
+	\textcolor{blue}{\url{https://dartpad.dev/8eea3f7534658c9a54b8ebd7c37487db}}
 	
 	\pagebreak
-	\setlength{\leftskip}{-4.2cm}
 	\begin{thebibliography}{99}
 		
 		\vspace{5pt}
-		\setlength{\leftskip}{-3.8cm}
 		\bibitem{latexcompanion}
-		“A Gentle Introduction to Monte Carlo Sampling for Probability”\\ \textcolor{blue}{\url{https://machinelearningmastery.com/monte-carlo-sampling-for-probability/}}\\
+		“A Gentle Introduction to Monte Carlo Sampling for Probability”\\ \textcolor{blue}{\url{https://machinelearningmastery.com/monte-carlo-sampling-for-probability}}\\
 		{[Accessed: 7-April-2020]}\\
 		
 		\bibitem{latexcompanion}
-		"Monte Carlo Simulations”\\ \textcolor{blue}{\url{https://www.palisade.com/risk/monte_carlo_simulation.asp}}\\
+		"Monte Carlo Simulations”\\ \textcolor{blue}{\url{https://www.palisade.com/risk/monte_carlo_simulation.asp/}}\\
 		{[Accessed: 10-April-2020]}\\
 		
 		\bibitem{latexcompanion}
-		"Monte Carlo Methods and Importance Sampling”\\ \textcolor{blue}{\url{http://ib.berkeley.edu/labs/slatkin/eriq/classes/guest\_lect/mc\_lecture\_notes.pdf }}\\
+		"Monte Carlo Methods and Importance Sampling”\\ \textcolor{blue}{\url{http://ib.berkeley.edu/labs/slatkin/eriq/classes/guest\_lect/mc\_lecture\_notes.pdf}}\\
 		{[Accessed: 2-May-2020]}\\
 		
 		\bibitem{latexcompanion}
@@ -250,414 +209,9 @@
 		{[Accessed: 12-April-2020]}\\
 		
 		\bibitem{latexcompanion}
-		Zou, Mingqing, et al. "A Monte Carlo method for simulating fractal surfaces." \textit{Physica A: Statistical Mechanics and its Applications} 386.1 (2007): 176-186.\\
-		
-		\bibitem{latexcompanion}
-		Lin, Yi-Cheng, and Kamal Sarabandi. "A Monte Carlo coherent scattering model for forest canopies using fractal-generated trees." \textit{IEEE Transactions on Geoscience and Remote Sensing} 37.1 (1999): 440-451.\\
-		
-		\bibitem{latexcompanion}
-		"Classification of Fractals”\\ \textcolor{blue}{\url{https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/wp/f/Fractal.htm}}\\
-		{[Accessed: 28-May-2020]}\\
-		
-		\bibitem{latexcompanion}
-		"General Introduction to Fractal Geometry”\\ \textcolor{blue}{\url{http://www.fractal.org/Bewustzijns-Besturings-Model/Fractals-Useful-Beauty.htm}}\\
-		{[Accessed: 31-May-2020]}\\
-		
-		\bibitem{latexcompanion}
-		"Source of Fractals”\\ \textcolor{blue}{\url{http://www.fractal.org/Bewustzijns-Besturings-Model/Source-of-Fractals.htm}}\\
-		{[Accessed: 6-June-2020]}\\
-		
-		\bibitem{latexcompanion}
-		Pippa, Natassa, et al. “On the Ubiquitous Presence of Fractals and Fractal Concepts in Pharmaceutical Sciences: A Review.” \textit{International Journal of Pharmaceutics}, Elsevier, 8 Sept. 2013,\\
-		\textcolor{blue}{\url{www.sciencedirect.com/science/article/pii/S0378517313008211}}
+		"Monte Carlo error analysis”\\ \textcolor{blue}{\url{https://web.northeastern.edu/afeiguin/phys5870/phys5870/node71.html}}\\
+		{[Accessed: 16-January-2021]}\\
 		
 	\end{thebibliography}
-	
-	\pagebreak
-	
-	\setlength{\leftskip}{0cm}
-	\section*{Annexure}
-	
-	\textbf{Code for the simulations, written in \textcolor{blue}{\href{https://github.com/dart-lang/sdk}{Dart}}}
-	
-	\setcounter{section}{0}
-	\section{Pi Approximation}
-	
-	\begin{minted}{cpp}
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-
-import 'dart:math' as math;
-
-main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: MyApp(),
-    ),
-  );
-}
-
-class MyApp extends StatefulWidget {
-  const MyApp({Key key}) : super(key: key);
-
-  @override
-  _MyAppState createState() => _MyAppState();
-}
-
-double pi = 0;
-
-class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
-  AnimationController _animationController;
-
-  @override
-  void initState() {
-    super.initState();
-    _animationController = AnimationController(vsync: this)
-      ..duration = Duration(milliseconds: 400);
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    SystemChrome.setSystemUIOverlayStyle(
-      SystemUiOverlayStyle(
-        statusBarColor: Colors.grey[900],
-        statusBarIconBrightness: Brightness.light,
-        systemNavigationBarColor: Colors.white,
-        systemNavigationBarIconBrightness: Brightness.dark,
-      ),
-    );
-
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.portraitUp,
-    ]);
-
-    WidgetsBinding.instance
-        .addPostFrameCallback((timeStamp) => setState(() {}));
-
-    return SafeArea(
-      child: Scaffold(
-        backgroundColor: Colors.grey[900],
-        bottomNavigationBar: BottomAppBar(
-          elevation: 0,
-          color: Colors.white,
-          child: Padding(
-            padding: EdgeInsets.symmetric(vertical: 50),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: <Widget>[
-                Text(
-                  "Pi Value (approx)",
-                  style: Theme.of(
-                           context
-                         ).textTheme.headline4.copyWith(
-                           color: Colors.black,
-                      ),
-                ),
-                SizedBox(height: 10),
-                Text(
-                  "${pi.toStringAsFixed(12)}",
-                  style: Theme.of(context).textTheme.headline5,
-                ),
-              ],
-            ),
-          ),
-        ),
-        body: Stack(
-          children: <Widget>[
-            Align(
-              alignment: Alignment.topCenter,
-              child: Padding(
-                padding: EdgeInsets.only(top: 50),
-                child: Text(
-                  "Darts Inside Circle: ${insideCircle.toInt()}\n" +
-                  "Darts Inside Square (Total): ${total.toInt()}",
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.w600,
-                    fontSize: 20,
-                  ),
-                ),
-              ),
-            ),
-            Align(
-              alignment: Alignment.center,
-              child: CustomPaint(
-                painter: SimulationPainter(),
-                child: Container(),
-              ),
-            ),
-            Align(
-              alignment: Alignment.bottomCenter,
-              child: Padding(
-                padding: EdgeInsets.only(bottom: 50),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: <Widget>[
-                    FloatingActionButton(
-                      child: Icon(Icons.replay),
-                      backgroundColor: Colors.blueAccent,
-                      onPressed: () => setState(() {
-                        insideCircle = 0;
-                        total = 0;
-                        coordinates.clear();
-                        isWorking = true;
-                        _animationController.reset();
-                      }),
-                    ),
-                    SizedBox(width: 30),
-                    FloatingActionButton(
-                      child: AnimatedIcon(
-                        icon: AnimatedIcons.pause_play,
-                        progress: _animationController,
-                      ),
-                      backgroundColor: Colors.blueAccent,
-                      onPressed: () => setState(() {
-                        isWorking
-                            ? _animationController.forward()
-                            : _animationController.reverse();
-                        isWorking = !isWorking;
-                      }),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-final coordinates = List<List<double>>();
-double insideCircle = 0, total = 0;
-bool isWorking = true;
-
-class SimulationPainter extends CustomPainter {
-  final randomGenerator = math.Random();
-  double x, y;
-
-  @override
-  void paint(Canvas canvas, Size size) {
-    final radius = size.width * 9 / 20;
-
-    final paint = Paint()
-      ..style = PaintingStyle.stroke
-      ..strokeWidth = 2
-      ..color = Colors.white;
-
-    canvas.translate(size.width / 2, size.height / 2);
-
-    canvas.drawCircle(Offset(0, 0), radius, paint);
-    canvas.drawRect(
-      Rect.fromCenter(
-        center: Offset(0, 0),
-        height: radius * 2,
-        width: radius * 2,
-      ),
-      paint,
-    );
-
-    paint.style = PaintingStyle.fill;
-
-    if (isWorking)
-      for (int i = 0; i < 30; i++) {
-        x = -radius + randomGenerator.nextDouble() * radius * 2;
-        y = -radius + randomGenerator.nextDouble() * radius * 2;
-
-        coordinates.add([x, y]);
-
-        ++total;
-        if (x * x + y * y <= radius * radius) ++insideCircle;
-      }
-
-    coordinates.forEach((element) {
-      x = element[0];
-      y = element[1];
-
-      paint.color = (x * x + y * y > radius * radius)
-          ? Colors.redAccent
-          : Colors.greenAccent;
-
-      canvas.drawCircle(Offset(x, y), 0.3, paint);
-
-      pi = insideCircle / total * 4;
-    });
-  }
-
-  @override
-  bool shouldRepaint(SimulationPainter oldDelegate) => true;
-
-  @override
-  bool shouldRebuildSemantics(SimulationPainter old) => false;
-}
-	\end{minted}
-	\pagebreak
-	\section{Fractal Trees}
-	
-	\begin{minted}{cpp}
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-
-import 'dart:math';
-
-main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: MyApp(),
-    ),
-  );
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({Key key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    SystemChrome.setSystemUIOverlayStyle(
-      SystemUiOverlayStyle(
-        systemNavigationBarColor: Colors.white,
-        statusBarColor: Colors.grey[900],
-        statusBarIconBrightness: Brightness.light,
-        systemNavigationBarIconBrightness: Brightness.dark,
-      ),
-    );
-
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.portraitUp,
-    ]);
-
-    return SafeArea(
-      child: AppBody(),
-    );
-  }
-}
-
-class AppBody extends StatefulWidget {
-  AppBody({Key key}) : super(key: key);
-
-  @override
-  _AppBodyState createState() => _AppBodyState();
-}
-
-class _AppBodyState extends State<AppBody> {
-  double angle = pi / 4, height = 10, scale = 0.5;
-  Size size;
-
-  @override
-  Widget build(BuildContext context) {
-    size = MediaQuery.of(context).size;
-
-    return Scaffold(
-      backgroundColor: Colors.grey[900],
-      body: Transform.scale(
-        scale: scale,
-        child: CustomPaint(
-          painter: FractalPainter(height, angle),
-          child: Container(),
-        ),
-      ),
-      bottomNavigationBar: BottomAppBar(
-        elevation: 0,
-        color: Colors.white,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          mainAxisSize: MainAxisSize.min,
-          children: <Widget>[
-            customSlider(),
-            customSlider(isHeight: true),
-            customSlider(isScale: true),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget customSlider({bool isHeight = false, bool isScale = false}) {
-    return Row(
-      mainAxisSize: MainAxisSize.max,
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
-        Padding(
-          padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
-          child: Text(
-            isHeight ? "depth" : isScale ? "zoom" : "angle",
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 18,
-            ),
-          ),
-        ),
-        Slider(
-          min: 0,
-          max: isHeight ? 20 : isScale ? 1 : pi,
-          activeColor: Colors.red[400],
-          inactiveColor: Colors.grey[200],
-          value: isHeight ? height : isScale ? scale : angle,
-          onChanged: (newValue) => setState(
-            () => isHeight
-                ? height = newValue
-                : isScale ? scale = newValue : angle = newValue,
-          ),
-        ),
-      ],
-    );
-  }
-}
-
-int counter = 0;
-
-class FractalPainter extends CustomPainter {
-  Canvas _canvas;
-  Paint _paint;
-  double _height, _angle;
-
-  FractalPainter(this._height, this._angle);
-
-  @override
-  void paint(Canvas canvas, Size size) {
-    _canvas = canvas;
-    _paint = Paint()
-      ..color = Colors.white
-      ..strokeWidth = 3
-      ..strokeJoin = StrokeJoin.bevel
-      ..style = PaintingStyle.stroke;
-
-    canvas.translate(size.width / 2, size.height - 30);
-    drawBranch(_height * _height);
-  }
-
-  void drawBranch(double length) {
-    _canvas.drawLine(Offset(0, 0), Offset(0, -length), _paint);
-    _canvas.translate(0, -length);
-
-    if (counter == length.round()) return;
-
-    if (length > 4) {
-      _canvas.save();
-      _canvas.rotate(_angle);
-      ++counter;
-      drawBranch(length * 0.7);
-      _canvas.restore();
-
-      _canvas.save();
-      _canvas.rotate(-_angle);
-      ++counter;
-      drawBranch(length * 0.7);
-      _canvas.restore();
-    }
-  }
-
-  @override
-  bool shouldRepaint(FractalPainter oldDelegate) => false;
-
-  @override
-  bool shouldRebuildSemantics(FractalPainter oldDelegate) => false;
-}
-	\end{minted}
 	
 \end{document}
