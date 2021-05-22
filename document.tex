@@ -2,6 +2,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{xcolor}
 \usepackage[cache=false]{minted}
+\usepackage{float}
 \usemintedstyle{xcode}
 \raggedbottom
 \setlength{\fboxsep}{0pt}
@@ -175,6 +176,18 @@
 	
 	In the above, it is clearly evident that as the number of points increases, the approximate value of Pi approaches the real value. This is in complete agreement with the hypotheses above, and hence, proves that Monte Carlo simulations are good approximations when one can’t calculate the exact value.
 		
+	\section{Result}
+
+	\rightHighlight{For reference, a colab notebook containing the error analysis code is available at \textcolor{blue}{\url{https://bit.ly/pi-approx-errors}}}
+
+	The results of the above simulation have been scatter-plotted, with the X-axis as $1/\sqrt{N}$ and Y-axis as the percentage error. It can be observed that the percentage error reduces in proportion to $1/\sqrt{N}$.
+	
+	\begin{figure}[H]
+		\includegraphics[width=10cm]{error-plot}
+	\end{figure}
+	\vspace{-10pt}\hspace{43pt}\scriptsize{\textbf{Figure 4}. The relation between percentage error and number of darts}
+
+	\normalsize
 	\section{Conclusion}
 	In this paper, a Monte Carlo simulation has been used to estimate the value of $\pi$.
 	
