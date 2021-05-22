@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.5.4)  22 MAY 2021 22:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.5.4)  22 MAY 2021 23:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1045,21 +1045,26 @@ Overfull \hbox (11.95853pt too wide) in paragraph at lines 181--181
  []
 
 Package epstopdf Info: Source file: <error-plot.eps>
-(epstopdf)                    date: 2021-05-22 21:50:03
-(epstopdf)                    size: 570860 bytes
+(epstopdf)                    date: 2021-05-22 23:00:40
+(epstopdf)                    size: 36467235 bytes
 (epstopdf)             Output file: <error-plot-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-05-22 21:53:38
-(epstopdf)                    size: 5552 bytes
+(epstopdf)                    date: 2021-05-22 22:45:11
+(epstopdf)                    size: 6330 bytes
 (epstopdf)             Command: <epstopdf --outfile=error-plot-eps-converted-to
 .pdf error-plot.eps>
 (epstopdf)             \includegraphics on input line 186.
-Package epstopdf Info: Output file is already uptodate.
-<error-plot-eps-converted-to.pdf, id=99, 376.40625pt x 248.93pt>
+runsystem(epstopdf --outfile=error-plot-eps-converted-to.pdf error-plot.eps)...
+executed.
+
+Package epstopdf Info: Result file: <error-plot-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-05-22 23:01:35
+(epstopdf)                    size: 103012 bytes.
+<error-plot-eps-converted-to.pdf, id=99, 433.62pt x 289.08pt>
 File: error-plot-eps-converted-to.pdf Graphic file (type pdf)
 <use error-plot-eps-converted-to.pdf>
 Package pdftex.def Info: error-plot-eps-converted-to.pdf  used on input line 18
 6.
-(pdftex.def)             Requested size: 284.52756pt x 188.18219pt.
+(pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
 
 Overfull \hbox (130.11789pt too wide) has occurred while \output is active
 $[]$ 
@@ -1086,6 +1091,13 @@ Overfull \hbox (132.19838pt too wide) has occurred while \output is active
 
 [7 <./pi_ss_1-eps-converted-to.pdf> <./pi_ss_2-eps-converted-to.pdf> <./pi_ss_3
 -eps-converted-to.pdf>]
+Overfull \hbox (6.61024pt too wide) in paragraph at lines 188--189
+[] \OT1/txr/bx/n/8 Fig-ure 4\OT1/txr/m/n/8 . The re-la-tion be-tween per-cent-a
+ge er-ror and $1\OML/txmi/m/it/8 =[]$\OT1/txr/m/n/8 , where $\OML/txmi/m/it/8 N
+ \OT1/txr/m/n/8 = \OML/txmi/m/it/8 number of darts$ 
+ []
+
+
 Overfull \hbox (14.40659pt too wide) in paragraph at lines 201--203
 [][]$\OT1/txtt/m/n/10.95 https : / / dartpad . dev / 8eea3f7534658c9a54b8ebd7c3
 7487db$[][] 
@@ -1231,7 +1243,7 @@ ic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on document.pdf (9 pages, 3899710 bytes).
+Output written on document.pdf (9 pages, 3997314 bytes).
 PDF statistics:
  190 PDF objects out of 1000 (max. 8388607)
  143 compressed objects within 2 object streams
