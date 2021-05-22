@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.5.4)  22 MAY 2021 23:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.5.4)  22 MAY 2021 23:19
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -829,11 +829,11 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51607 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 62.
+(epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 62.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 60.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (4.16098pt too wide) has occurred while \output is active
@@ -864,11 +864,11 @@ Package epstopdf Info: Source file: <logo.eps>
 (epstopdf)                    size: 51607 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-eps-converted-to.pdf l
 ogo.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 File: logo-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-eps-converted-to.pdf>
-Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 85.
+Package pdftex.def Info: logo-eps-converted-to.pdf  used on input line 84.
 (pdftex.def)             Requested size: 56.9055pt x 23.27849pt.
 
 Overfull \hbox (132.19838pt too wide) has occurred while \output is active
@@ -1048,17 +1048,12 @@ Package epstopdf Info: Source file: <error-plot.eps>
 (epstopdf)                    date: 2021-05-22 23:00:40
 (epstopdf)                    size: 36467235 bytes
 (epstopdf)             Output file: <error-plot-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-05-22 22:45:11
-(epstopdf)                    size: 6330 bytes
+(epstopdf)                    date: 2021-05-22 23:01:35
+(epstopdf)                    size: 103012 bytes
 (epstopdf)             Command: <epstopdf --outfile=error-plot-eps-converted-to
 .pdf error-plot.eps>
 (epstopdf)             \includegraphics on input line 186.
-runsystem(epstopdf --outfile=error-plot-eps-converted-to.pdf error-plot.eps)...
-executed.
-
-Package epstopdf Info: Result file: <error-plot-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-05-22 23:01:35
-(epstopdf)                    size: 103012 bytes.
+Package epstopdf Info: Output file is already uptodate.
 <error-plot-eps-converted-to.pdf, id=99, 433.62pt x 289.08pt>
 File: error-plot-eps-converted-to.pdf Graphic file (type pdf)
 <use error-plot-eps-converted-to.pdf>
@@ -1243,7 +1238,7 @@ ic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on document.pdf (9 pages, 3997314 bytes).
+Output written on document.pdf (9 pages, 3998053 bytes).
 PDF statistics:
  190 PDF objects out of 1000 (max. 8388607)
  143 compressed objects within 2 object streams
